@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Platzi | Javascript Learning</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="https://carlos-colmenares-a.netlify.app" />
+
+    <link rel="stylesheet" href="assets/css/styleGral.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="https://use.fontawesome.com/698a367122.js"></script>
+  </head>
+  <body>
+    <!--: Header & Menu Navigation -->
+
+    <header>
+      <div class="Grid-container">
+        <div class="profile">
+          <a href="#" class="logo">
+            <img
+              width="96"
+              height="72"
+              src="assets/img/logoFoto.JPG"
+              alt="Software Developer"
+            />
+
+            <div class="logotext">
+              zCoder!<br /><span>...on Social Media</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="phone">
+          <i class="fa fa-phone" aria-hidden="true">0414.324.63.96</i>
+          <p>Carlos Colmenares A.</p>
+        </div>
+      </div>
+    </header>
+
+    <!--: Área de desarrollo para la clase del día -->
+    <main>
+      <div class="Grid_titles">
+        <h1 class="titulo">Javascript Learning</h1>
+        <h2 class="clase">Seriado: #8</h2>
+        <ol class="contenido">
+          <li>Dibujando el DOM</li>
+          <li>Funciones</li>
+          <li>Ciclos While y For</li>
+          <li>Eventos y Formularios HTML</li>
+          <li>Detectar eventos del teclado</li>
+          <li>Uso del teclado en CANVAS</li>
+        </ol>
+      </div>
+      <section>
+        <div class="box">
+          <h3>Canvas</h3>
+          <div class="content">
+            <p>
+              Cuantas líneas quieres dibujar?<br />
+              <input type="text" id="entrada" /><br />
+              <input type="button" value="enviar" id="botoncito" />
+            </p>
+          </div>
+          <canvas id="dibujito"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <script defer src="assets/js/app.js"></script>
+  </body>
+</html>
